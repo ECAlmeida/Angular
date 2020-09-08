@@ -16,5 +16,10 @@ var Carro = /** @class */ (function () {
     };
     return Carro;
 }());
-var carroA = new Carro('Gol', 5);
+var carroA = new Carro('Goleta', 5);
+console.log(carroA);
+carroA.acelerar();
+console.log(carroA);
+carroA.acelerar();
+carroA.acelerar();
 console.log(carroA);

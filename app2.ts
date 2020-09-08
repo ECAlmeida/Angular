@@ -21,5 +21,10 @@ class Carro {
 
     }
 }
-let carroA = new Carro('Gol', 5)
+let carroA = new Carro('Goleta', 5)
+console.log(carroA)
+carroA.acelerar()
+console.log(carroA)
+carroA.acelerar()
+carroA.acelerar()
 console.log(carroA)
