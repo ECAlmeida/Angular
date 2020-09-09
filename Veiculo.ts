@@ -2,7 +2,7 @@ export default class Veiculo {
     protected modelo!: string 
     //retirado por conta da herança
     //private numeroDePortas: number
-    private velocidade: number = 10
+    protected velocidade: number = 10
 
     //constructor(modelo: string, numeroDePortas: number){
     //    this.modelo = modelo
