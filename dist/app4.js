@@ -3,15 +3,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var Carro_1 = __importDefault(require("./Carro"));
-var Moto_1 = __importDefault(require("./Moto"));
+var ConcessionariaDao_1 = require("./ConcessionariaDao");
 var Concessionaria_1 = __importDefault(require("./Concessionaria"));
-var carro = new Carro_1.default('Veloster', 3);
-carro.acelerar();
-var moto = new Moto_1.default();
-moto.acelerar();
-moto.acelerar();
+var dao = new ConcessionariaDao_1.ConcessionariaDao();
 var concessionaria = new Concessionaria_1.default('', []);
-console.log(moto);
-console.log(carro);
-console.log(concessionaria.fornecerHorariosDeFuncionamento());
+dao.inserir(concessionaria);
