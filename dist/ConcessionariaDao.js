@@ -25,7 +25,7 @@ var ConcessionariaDao = /** @class */ (function () {
         console.log('logica de selecionar');
         return new Concessionaria_1.default('', []);
     };
-    ConcessionariaDao.prototype.selecionartodos = function () {
+    ConcessionariaDao.prototype.selecionarTodos = function () {
         console.log('logica de selecionar todos');
         return [new Concessionaria_1.default('', [])];
     };
