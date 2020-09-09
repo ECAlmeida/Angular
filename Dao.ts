@@ -1,4 +1,4 @@
-import { DaoInterface } from "./DaoInterface";
+import DaoInterface  from "./DaoInterface";
 
 //import {DaoInterface} from './DaoInterface'
 

@@ -1,4 +1,4 @@
-export interface DaoInterface<T>{
+export default interface DaoInterface<T>{
     nomeTabela: string
 
     inserir(object: T): boolean
